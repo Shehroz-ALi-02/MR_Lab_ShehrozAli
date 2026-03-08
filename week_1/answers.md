@@ -1,4 +1,4 @@
-#Week_1: Post Lab Question's Answers.
+Week_1: Post Lab Question's Answers.
 ##1. Define: node, topic, package, workspace. Provide one sentence each. 
 #Node: A Ros node is an exectuable process with in the robot operating system framework that performs a specific computation or fine grade task
             within the ROS 2 graph (e.g., a sensor driver or a controller). Nodes uses ROS client libraries to exchange data through topics acting as 
