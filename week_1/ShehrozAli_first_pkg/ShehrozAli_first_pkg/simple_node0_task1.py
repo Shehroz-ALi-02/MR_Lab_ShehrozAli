@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
 import os
-
 counter_file = os.path.join(os.path.dirname(__file__), "run_count.txt")
 
 class SimpleNode(Node):
