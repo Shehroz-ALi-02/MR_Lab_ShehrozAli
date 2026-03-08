@@ -39,7 +39,7 @@ source /opt/ros/humble/setup.bash
 
 cd ~/ros2_ws
 
-colcon build
+colcon build (always colcon in the workspace directory not in package folder)
 
 **Package & Node Management**
 
