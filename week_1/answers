@@ -27,10 +27,6 @@ Week_1: Post Lab Question's Answers.
       is installed. It essentially maps a command line name to a specific Python function within your package.
 
 5. Draw (by hand or ASCII) a diagram showing one publisher and one subscriber connected by a topic.
-<img src="https://raw.githubusercontent.com/Shehroz-ALi-02/MR_Lab_ShehrozAli/main/week_1/Screenshots%20/week_0/Conceptual_diagram.jpeg" width="600">
-
-
-
             Node A   --- (Topic: /cmd_vel) --->     Node B 
           (Publisher)                             (Subscriber)
 
