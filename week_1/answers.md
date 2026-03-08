@@ -21,7 +21,7 @@ The entry points is the console script in setup.py serves as a mechanism to auto
 
   Node A   --- (Topic: /cmd_vel) --->     Node B 
   
-(Publisher)                             (Subscriber)
+(Publisher)           .                  (Subscriber)
 ![image alt](https://github.com/Shehroz-ALi-02/MR_Lab_ShehrozAli/blob/f919325a54b4650552bbfea16dcae77b2af7277f/week_1/Screenshots%20/week_0/Conceptual_diagram.jpeg)
 
 
