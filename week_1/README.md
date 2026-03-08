@@ -3,7 +3,7 @@
 
 **Instructor: Dr. Maria Akram**
 
-## Brief Description**
+## Brief Description
 This lab served as an onboarding session for Linux and ROS 2 Humble. The primary objectives were to familiarize ourselves with terminal navigation, set up a standard ROS 2 development workspace (~/shehroz_ros2_ws), and create a Python based package. I successfully implemented a basic node that utilizes the ROS 2 logging system and registered it as an executable through the package build system.
 
 ## Commands Used:
