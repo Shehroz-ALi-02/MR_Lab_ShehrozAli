@@ -5,17 +5,19 @@
 **Package**: A container that contain nodes, libraries, datasets, configurations files etc. Packages allow for the modeular development, building, and  sharing of functionality ensuring code is portable, reusable and executable. They are typically created within src directory in workspace making it easy to share and build software.
 **Workspace**: A main folder like (ShehrozAli_ws) on your computer where you develop, build, and install ROS packages. It contain src folder for source code and build, log and install. Use differnet workspaces for different projects to avoid dependecncy conflicts. 
 
-# 2. Explain why sourcing is required. What happens if you do not source a workspace?
+## 2. Explain why sourcing is required. What happens if you do not source a workspace?
 Sourcing is the process of loading/updating enviromental variables (like PATH and PYTHONPATH) so the system is aware where ROS and your built packages are located. If you do not source the workspace, it ill make the system blind from your project and commands like ros run will fail with a "Package not found" error.
 
-# 3. What is the purpose of colcon build? What folders does it generate?
+## 3. What is the purpose of colcon build? What folders does it generate?
 colcon build is the command line tool used to build, test, install, compile the multiple software packages or  source code in your workspace that is automating the process and managing dependecies. It is the standard tool for ROS and generates three main folders build, install and log when run in the workspace that contain src as a peer of src folder.
 
-# 4. In your own words, explain what the entry_points console script does in setup.py.
+## 4. In your own words, explain what the entry_points console script does in setup.py.
 The entry points is the console script in setup.py serves as a mechanism to automatically create executable command line tools when your Python package is installed. It essentially maps a command line name to a specific Python function within your package.
 
-# 5. Draw (by hand or ASCII) a diagram showing one publisher and one subscriber connected by a topic.
+## 5. Draw (by hand or ASCII) a diagram showing one publisher and one subscriber connected by a topic.
+
             Node A   --- (Topic: /cmd_vel) --->     Node B 
           (Publisher)                             (Subscriber)
+![image alt](https://github.com/Shehroz-ALi-02/MR_Lab_ShehrozAli/blob/f919325a54b4650552bbfea16dcae77b2af7277f/week_1/Screenshots%20/week_0/Conceptual_diagram.jpeg)
 
 
