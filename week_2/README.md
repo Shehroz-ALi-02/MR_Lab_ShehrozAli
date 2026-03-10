@@ -1,6 +1,7 @@
-# MCT-454L Mobile Robotics: Week 1 Lab
+# MCT-454L Mobile Robotics: Week 2 Lab
 
 **Student Name: Shehroz Ali**
+
 **Instructor: Dr. Maria Akram**
 
 # Brief Description
