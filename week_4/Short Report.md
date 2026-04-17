@@ -10,7 +10,15 @@ Using a launch file allowed for the simultaneous execution of the simulator, the
 
 ## 3. Modified Launch File
 
-The modified launch file is named turtlesim_launch_multiturtle.py and is located in the launch/ directory of the ShehrozAli_launch_pkg package.It contains:The turtlesim_node to provide the GUI.An Execute Process action to call the /spawn service for the second turtle.The custom follower_node to execute the tracking math.The turtle_teleop_key node to allow manual control of the leader.
+The modified launch file is named turtlesim_launch_multiturtle.py and is located in the launch/ directory of the ShehrozAli_launch_pkg package.It contains:
+
+The turtlesim_node to provide the GUI.
+
+An Execute Process action to call the /spawn service for the second turtle.
+
+The custom follower_node to execute the tracking math.
+
+The turtle_teleop_key node to allow manual control of the leader.
     
 ## 4. Trajectory Data Analysis
 
