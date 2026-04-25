@@ -15,6 +15,7 @@ To enable mapping, the Cartographer node was launched. It was crucial to set use
 Using the teleop_keyboard node, the robot was manually navigated through the environment.As the robot moved, the LaserScan data (red points) hit walls and populated the occupancy grid in the Map plugin.After exploring the environment, the map was saved using the map_saver_cli.Task 7: The robot was successfully teleoperated back to its origin (0, 0, 0)$ by monitoring the position values in the terminal.
 
 **Step 4: Coordinate Frame Analysis (Task 3)**
+
 The TF (Transform) plugin was used to visualize the robot's internal hierarchy.Observations: The map frame is the global parent. The odom frame tracks movement relative to the start, while base_link represents the physical center of the robot. Sensors like base_scan (LiDAR) are children of the base_link frame.
 
 **Step 5: Data Recording (Task 5)**
