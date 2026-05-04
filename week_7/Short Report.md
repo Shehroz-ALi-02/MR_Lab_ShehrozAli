@@ -1,7 +1,7 @@
 # Deliverable 1: Short Report of Steps and Observations
 ## 1. Simulation & Setup
 
-Step: Launched the TurtleBot3 world in Gazebo and the Nav2 stack with the pre-saved map from Lab 5.
+Step: Launched the TurtleBot3 world in Gazebo and the Nav2 stack with the pre saved map from Lab 5.
 
 Observation: The Map Server successfully loaded my_map.yaml, and the static environment appeared in RViz.
 
@@ -13,15 +13,17 @@ Observation: The initial red particle cloud was scattered but quickly converged 
 
 ## 3. Navigation & Waypoints
 
-Step: Sent single goals via RViz and then executed a 5-waypoint mission using a custom Python node (waypoint_navigator.py).
+Step: Sent single goals via RViz and then executed a 5 waypoint mission using a custom Python node (waypoint_navigator.py).
 
 Observation: The planner_server generated a smooth global path (green line), and the controller_server maintained the robot's velocity to follow the path accurately.
 
 # Deliverable 6: Written Observations on Recovery Behavior (Task 5)
 
-Scenario: A dynamic obstacle (box) was placed in the robot's path while it was moving toward a waypoint.
+**Scenario**: 
 
-Observations:
+A dynamic obstacle (box) was placed in the robot's path while it was moving toward a waypoint.
+
+**Observations**:
 
 Detection: The Local Costmap immediately showed a new lethal obstacle (purple/red zone) that was not part of the original static map.
 
