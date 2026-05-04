@@ -32,7 +32,7 @@ Action: The robot initially paused. When it realized the path was completely blo
 Resolution: After spinning to "clear" its local costmap and find an opening, the bt_navigator requested a new plan. The robot successfully re-planned a trajectory around the box and continued to its   destination.
 
 # Deliverable 7: Conclusion
-This lab provided a comprehensive look at the ROS 2 Navigation (Nav2) ecosystem. I learned how to integrate individual components—Map Server, AMCL Localization, and the Waypoint Follower into a functional autonomous system.
+This lab provided a comprehensive look at the ROS 2 Navigation (Nav2) ecosystem. I learned how to integrate individual components Map Server, AMCL Localization, and the Waypoint Follower into a functional autonomous system.
 
 ## Challenges Faced
 
